@@ -3,6 +3,6 @@
   "uuid": "AdvancedVolumeMixer2@kaipee.kaipee.co.uk",
   "orginal-author": "kaipee@kaipee.co.uk",
   "name": "Advanced Volume Mixer 2",
-  "description": "Control programs' volume and output\nSource: https://github.com/kaipee/AdvancedVolumeMixer2.git",
+  "description": "Control programs' volume and output\nThis is a fork from https://github.com/kaipee/AdvancedVolumeMixer2.git",
   "url": "https://github.com/kaipee/AdvancedVolumeMixer2.git"
 }

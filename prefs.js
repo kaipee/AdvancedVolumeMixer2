@@ -4,17 +4,17 @@
 const Gtk = imports.gi.Gtk;
 const GObject = imports.gi.GObject;
 
-const Gettext = imports.gettext.domain('gnome-shell-extensions-AdvancedVolumeMixer');
+const Gettext = imports.gettext.domain('gnome-shell-extensions-AdvancedVolumeMixer2');
 const _ = Gettext.gettext;
 
-const AVM = imports.misc.extensionUtils.getCurrentExtension();
-const Lib = AVM.imports.lib;
+const AVM2 = imports.misc.extensionUtils.getCurrentExtension();
+const Lib = AVM2.imports.lib;
 
 let gsettings;
 let settings;
 
 function init() {
-  gsettings = Lib.getSettings(AVM);
+  gsettings = Lib.getSettings(AVM2);
   settings = {
     position: {
       type: "e",

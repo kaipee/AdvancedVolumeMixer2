@@ -8,15 +8,15 @@ const St = imports.gi.St;
 const PanelMenu = imports.ui.panelMenu;
 const GLib = imports.gi.GLib;
 
-const AVM = imports.misc.extensionUtils.getCurrentExtension();
-const Settings = AVM.imports.settings;
+const AVM2 = imports.misc.extensionUtils.getCurrentExtension();
+const Settings = AVM2.imports.settings;
 
-const AdvancedVolumeMixerStatusButton = new Lang.Class({
-  Name: 'AdvancedVolumeMixerStatusButton',
+const AdvancedVolumeMixer2StatusButton = new Lang.Class({
+  Name: 'AdvancedVolumeMixer2StatusButton',
   Extends: PanelMenu.Button,
 
   _init: function(mixer) {
-    this.parent(0.0, "AdvancedVolumeMixer");
+    this.parent(0.0, "AdvancedVolumeMixer2");
 
     this.mixer = mixer;
 
@@ -40,7 +40,7 @@ const AdvancedVolumeMixerStatusButton = new Lang.Class({
 
     this.mixer.connect("icon-changed", Lang.bind(this, this._onIconChanged));
 
-    this.menu.actor.add_style_class_name("AdvancedVolumeMixer");
+    this.menu.actor.add_style_class_name("AdvancedVolumeMixer2");
     this.menu.addMenuItem(this.mixer);
 
     this._onIconChanged();

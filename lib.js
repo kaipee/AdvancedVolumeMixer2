@@ -5,7 +5,7 @@ const Gio = imports.gi.Gio;
 const GLib = imports.gi.GLib;
 
 function getSettings(ext) {
-  let schemaName = "org.gnome.shell.extensions.AdvancedVolumeMixer";
+  let schemaName = "org.gnome.shell.extensions.AdvancedVolumeMixer2";
   let schemaDir = ext.dir.get_child("schemas").get_path();
 
   if (GLib.file_test(schemaDir + '/gschemas.compiled', GLib.FileTest.EXISTS)) {

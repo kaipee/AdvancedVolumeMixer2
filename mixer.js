@@ -17,13 +17,13 @@ const PopupMenu = imports.ui.popupMenu;
 
 const Volume = imports.ui.status.volume;
 
-const AVM = imports.misc.extensionUtils.getCurrentExtension();
-const Widget = AVM.imports.widget;
-const Settings = AVM.imports.settings;
-const Panel = AVM.imports.panel;
+const AVM2 = imports.misc.extensionUtils.getCurrentExtension();
+const Widget = AVM2.imports.widget;
+const Settings = AVM2.imports.settings;
+const Panel = AVM2.imports.panel;
 
-const AdvancedVolumeMixer = new Lang.Class({
-  Name: "AdvancedVolumeMixer",
+const AdvancedVolumeMixer2 = new Lang.Class({
+  Name: "AdvancedVolumeMixer2",
   Extends: PopupMenu.PopupMenuSection,
 
   _init: function() {

@@ -1,8 +1,8 @@
 // vi: et sw=2 fileencoding=utf8
 //
 
-const AVM = imports.misc.extensionUtils.getCurrentExtension();
-const Lib = AVM.imports.lib;
+const AVM2 = imports.misc.extensionUtils.getCurrentExtension();
+const Lib = AVM2.imports.lib;
 
 const Position = {
   LEFT: 0,
@@ -14,5 +14,5 @@ const Position = {
 let gsettings;
 
 function init() {
-  gsettings = Lib.getSettings(AVM);
+  gsettings = Lib.getSettings(AVM2);
 }
