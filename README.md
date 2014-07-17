@@ -12,12 +12,15 @@ I will modify and test this so that it works for each new version of Gnome Shell
 
 I am willing to accept commits to this extension so as to keep it working (or even hand it over to someone who has more skills).
 
-
 ## Installation
 
 Simply clone this repository then issue **make** command from inside AdvancedVolumeMixer2 directory. This will build a ZIP file which you can install using Gnome Tweak Tool.
 
-### Original
+### Gnome Shell Version
+
+Currently tested and working on Gnome Shell 3.12.2 (Arch Linux).
+
+#### Original
 
 https://extensions.gnome.org/extension/212/advanced-volume-mixer/
 http://repo.or.cz/w/AdvancedVolumeMixer.git
