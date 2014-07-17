@@ -18,3 +18,5 @@ http://repo.or.cz/w/AdvancedVolumeMixer.git
 
 *Please note that I have previously attempted to contact the original developer of this extension on a few occasions with regard to keeping it up to date or forking it - with no response on 
 any occasion.*
+
+If you are the original developer and wish to have this repo removed please get in touch.
